@@ -1,0 +1,319 @@
+body  {
+    background-color: #F1F3F4;
+}
+
+main {
+    position: relative;
+    width: 70%;
+  margin: auto;
+  background-color: white;
+  z-index: -10;
+}
+
+.section1 {
+    height: 34em;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.rect1 {
+  position: absolute;
+  top: -6em;
+  left: -0.3em;
+  background-color:#1B264B;
+  width: 1000px;
+  height: 500px;
+  border-radius: 2em;
+  z-index: -4;
+  transform: rotate(-17.5deg);
+}
+
+.rect2 {
+  position: absolute;
+  top: -1.8em;
+  left: -4.5em;
+  background-color:#1B264B;  
+  width: 1000px;
+  height: 500px;
+  border-radius: 2em;
+  z-index: -3;
+ }
+
+.rect3 {
+  position: absolute;
+  top: -7em;
+  left: -3.6em;
+  background-color:#242F52;
+  width: 38em;
+  height: 22.4em;
+  border-radius: 2.3em;
+  z-index: -2;
+ transform: skew(16deg);
+}
+
+.rect4 {
+  position: absolute;
+  top: 3em;
+  left: 2.8em;
+  background-color: #2D3759;  
+  width: 33em;
+  height: 16em;
+  border-radius: 2.3em;
+  z-index: -1;
+}
+
+.logo {
+  float: left;
+  margin: 1% 4%;
+  display: block;
+  width: 5%;
+}
+
+ul {
+    float: right;
+    margin-right: 40px;
+    }
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 15px;
+    color: white;
+}
+
+li:last-child {
+    color:#1B264B;
+    background-color: #FDFFFC;
+    border-radius: 3px;
+    padding: 0.2em 0.5em;
+}
+
+.text1section {
+    margin-left: 4%;
+}
+
+h1 {
+    padding-top: 85px;
+    color: white;
+}
+.pre1 {
+    color: white;
+    line-height: 2;
+    width: 14em;
+}
+
+.bitcoin1 {
+    position: absolute;
+    top: 4.2em;
+    left: 19em;
+    width: 21%;
+    opacity: 0.07;
+    transform: rotate(-17.5deg);
+}
+
+.bitcoin2 {
+    position: absolute;
+    top: 6.8em;
+    left: 49em;
+    width: 21%;
+    opacity: 0.07;
+    transform: rotate(-17.5deg);
+}
+
+.bitcoin3 {
+    position: absolute;
+    top: 22.9em;
+    left: -5.1em;
+    width: 21%;
+    opacity: 0.07;
+    transform: rotate(45deg);
+}
+
+.safe {
+    position: absolute;
+    top: 1.65em;
+    left: 22em;
+    width: 61%;
+}
+
+.section2 {
+    text-align: center;
+    margin: 0 3em;
+    line-height: 1.5;
+}
+
+.section3 {
+position: relative;
+margin-top: 3em;
+}
+
+.hand {
+    position: absolute;
+    top: -2.2em;
+    left: 29em;
+    width: 26%;
+ }
+
+ .telega {
+    position: absolute;
+    top: 2.8em;
+    left: 39em;
+    width: 26%;
+   }
+
+.text3section {
+    position: absolute;    
+    margin: 1.2em 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+h2 {
+    width: 12em;
+    color: #076572;    
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.view {
+    position: relative;
+    margin-top: 4em;
+    font-weight: 700;
+    color: #333333;
+}
+
+span {
+    position: absolute;
+    color: #369FED;
+    font-size: 2.1em;
+    top: -0.37em;
+    margin: 0;
+    padding: 0 2px;
+    font-weight: 200;
+}
+.dotts {
+    margin: 5em 2em;
+    width: 17em;
+    height: 200px;
+    color: #076572;
+}
+
+.section4 {
+position: relative;
+padding: 1em;
+height: 20em;
+background-color: #FAFAFA;
+}
+
+.dotts2 {
+   margin: 0 2em;
+}
+
+.text4section {
+    float: right;
+    width: 48%;
+    padding-top: 1.1em;
+}
+
+.loremtext {
+    width: 80%;
+    line-height: 1.5;   
+}
+
+.view2 {
+    margin-top: 2em;
+}
+
+.graf {
+    position: absolute;
+    top: 3.1em;
+    left: 4em;
+    width: 44%;
+   }
+
+.section5 {
+  position: relative;
+  padding: 1em;
+  height: 20em;
+}
+
+.text5section {
+    margin-left: 3em;
+    float: left;
+    width: 50%;
+    padding-top: 1.1em;
+   
+}
+
+.dotts3 {
+    position: absolute;
+    left: 19em;
+    top: -2.5em;
+}
+
+.coins {
+    position: absolute;
+    top: 1.5em;
+    left: 29em;
+    width: 40%;
+ }
+
+ footer {
+    background-color: #30292F;
+    height: 6.3em;
+    padding: 3em 5em;
+    color: #9D999D;
+ }
+
+ .footerlink {
+     display: block;
+     text-decoration: none;
+     color: #9D999D;
+ }
+
+ footer > p {
+     color: white;
+ } 
+
+ .footernav {
+     display: inline;
+     text-decoration: none;
+     color: #9D999D;
+ }
+
+ .footernav:first-child {
+     margin-right: 2em;
+    }
+
+ .footerright {
+     float: right;
+     margin-top: 1em;
+ }
+
+ .footerleft {
+    margin-top: 1em;
+ }
+
+.footerform {
+    float: right;
+    width: 13em;
+    margin-top: -1em;
+}
+
+ [type='submit'] {
+     background: #1768AC;
+     margin-left: -0.3em;
+     color: white;
+ }
+
+ [type='email'] {
+    // background: #1768AC;
+     margin-right: 0;
+ }
+
+ input {
+    margin: 2em 0 0 0;
+    padding: 0.5em;
+     border: 0 solid;
+ }
